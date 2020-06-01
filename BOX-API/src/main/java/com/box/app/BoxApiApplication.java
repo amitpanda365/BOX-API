@@ -47,8 +47,8 @@ public class BoxApiApplication {
 	public static void createFolder() {
 		HttpHeaders headers = new HttpHeaders();
 		headers.setBearerAuth("oDEb4VRWL6sqraos9RiWqmVEwYC14Nvw");
-		headers.setContentType(MediaType.APPLICATION_JSON);
-
+		headers.setContentType(MediaType.APPLICATION_JSON);//
+qYeagBFiSiQskynlTdcoGpsdMFxzt0Jl
 		String source = "{ \"name\": \"Spring Boot 7\", \"parent\": { \"id\": \"114477301130\" } }";
 
 		// JSONObject jo = new JSONObject(source);
